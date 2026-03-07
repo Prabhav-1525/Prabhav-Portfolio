@@ -8,6 +8,16 @@ export const Hero: React.FC = () => {
     document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const handlePrint = () => {
+    const originalTitle = document.title;
+    document.title = `${resumeData.basics.name} - Resume`;
+    window.print();
+    // Use setTimeout to ensure the print dialog has time to grab the new title
+    setTimeout(() => {
+      document.title = originalTitle;
+    }, 100);
+  };
+
   return (
     <section id="home" className="min-h-screen flex flex-col justify-center relative px-6 md:px-12 lg:px-24 pt-20">
       <div className="max-w-5xl mx-auto w-full">
@@ -62,7 +72,7 @@ export const Hero: React.FC = () => {
             <ChevronRight size={18} />
           </button>
           <button
-            onClick={() => window.print()}
+            onClick={handlePrint}
             className="px-6 py-3 rounded-full bg-white/5 text-white border border-white/10 font-medium flex items-center gap-2 hover:bg-white/10 transition-colors"
           >
             <Download size={18} />

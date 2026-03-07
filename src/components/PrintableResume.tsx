@@ -3,7 +3,7 @@ import resumeData from '../data/resume.json';
 
 export const PrintableResume: React.FC = () => {
   return (
-    <div className="p-8 max-w-4xl mx-auto text-black bg-white font-sans">
+    <div className="p-12 max-w-4xl mx-auto text-black bg-white font-sans">
       {/* Header */}
       <header className="text-center border-b-2 border-gray-800 pb-4 mb-6">
         <h1 className="text-4xl font-bold uppercase tracking-wider mb-2">{resumeData.basics.name}</h1>
