@@ -1,6 +1,8 @@
 # Prabhav Saxena - Personal Portfolio
 
-![Portfolio Preview](./docs/preview-placeholder.png) <!-- Replace with an actual screenshot of your portfolio -->
+Portfolio Preview
+<img width="1326" height="832" alt="porthome" src="https://github.com/user-attachments/assets/82d45301-5a33-4962-bfc7-cc72a8287588" />
+<!-- Replace with an actual screenshot of your portfolio -->
 
 ## 📖 Description
 
@@ -68,14 +70,12 @@ Follow these steps to set up and run the project locally on your machine.
 
 *(Add screenshots of your application here to show off the UI)*
 
-### Hero Section
-![Hero Section](./docs/hero-placeholder.png)
 
 ### Technical Experience
-![Technical Experience](./docs/tech-placeholder.png)
+Technical Experience
+<img width="1390" height="842" alt="Port tech" src="https://github.com/user-attachments/assets/9c7c0e7d-03a1-4f00-bdcb-f1a2d63b5103" />
 
-### Print-Ready Resume
-![Print View](./docs/print-placeholder.png)
+
 
 ## 🔌 API Reference
 
