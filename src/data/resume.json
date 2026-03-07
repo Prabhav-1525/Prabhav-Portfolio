@@ -2,7 +2,7 @@
   "basics": {
     "name": "Prabhav Saxena",
     "title": "AI/ML Engineer | MERN Stack Developer | React & Node.js",
-    "summary": "Computer Science Engineering undergraduate specializing in Artificial Intelligence, Machine Learning, and Full-Stack Development, with hands-on experience in building and deploying AI-driven applications and data-intensive systems. Proven ability to train and optimize ML/DL models, manage large-scale datasets, and deliver production-ready web solutions using Python, TensorFlow, React.js, and Cloud platforms. Actively engaged in academic research, hackathons, and internships, with a strong foundation in computer vision, model optimization, and applied problem-solving. Seeking opportunities to contribute to impactful AI and software engineering projects.",
+    "summary": "Pre-final year Computer Science Engineering undergraduate with hands-on experience in Artificial Intelligence, Machine Learning, and Full-Stack Development. Skilled in developing AI-driven applications and scalable web solutions using Python, TensorFlow, React.js, and cloud platforms. Experienced in ML/DL model development, computer vision, and data-intensive systems, with active involvement in research, hackathons, and internships.",
     "location": "Pune, Maharashtra, India",
     "email": "prabhavsaxena1525@gmail.com",
     "phone": "+91-8949194225",
@@ -188,5 +188,6 @@
   "awards": [
     "Delivered 2 live full-stack projects during internship at mplloid Pvt. Ltd., deployed for real client use."
   ],
+  "declaration": "I hereby declare that the information provided above is true and correct to the best of my knowledge and belief.",
   "extra": []
 }

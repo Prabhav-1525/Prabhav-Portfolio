@@ -110,6 +110,23 @@ export const PrintableResume: React.FC = () => {
           ))}
         </ul>
       </section>
+
+      {/* Declaration */}
+      {resumeData.declaration && (
+        <section className="mt-12 pt-6 border-t border-gray-300">
+          <p className="text-sm text-gray-800 italic mb-8">{resumeData.declaration}</p>
+          <div className="flex justify-between text-sm text-gray-900 font-bold">
+            <div>
+              <p>Place: {resumeData.basics.location.split(',')[0]}</p>
+              <p>Date: {new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })}</p>
+            </div>
+            <div className="text-right">
+              <p className="mb-1 border-b border-gray-900 inline-block min-w-[150px]"></p>
+              <p>({resumeData.basics.name})</p>
+            </div>
+          </div>
+        </section>
+      )}
     </div>
   );
 };
