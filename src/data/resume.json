@@ -82,18 +82,18 @@
   ],
   "projects": [
     {
-      "title": "Facial Expression Recognition App",
-      "stack": "TensorFlow, Keras, Flask, Streamlit, OpenCV",
-      "dates": "Dec 2025",
+      "title": "Facial Expressions Analyzer",
+      "stack": "React, TypeScript, TensorFlow.js (face-api.js), Tailwind CSS, Vite",
+      "dates": "Mar 2026",
       "links": [
-        { "name": "GitHub", "url": "https://github.com/Prabhav-1525/Facial-Expression-App" },
-        { "name": "Live Demo", "url": "https://facial-expression-app-prabhav.streamlit.app/" }
+        { "name": "GitHub", "url": "https://github.com/Prabhav-1525/Facial-Expressions-Analyzer" },
+        { "name": "Live Demo", "url": "https://facial-expressions-analyzer.netlify.app/" }
       ],
       "bullets": [
-        "Developedand deployed a real-time emotion recognition system classifying 4 facial emotions (happy, sad, angry, neutral) with 92% test accuracy.",
+        "Developed and deployed a real-time emotion recognition system classifying 7 facial emotions (happy, sad, angry, fearful, disgusted, surprised, neutral) directly in the browser.",
         "Trained a Convolutional Neural Network (CNN) on FER2013 dataset (35,887 images) using TensorFlow/Keras, achieving a 15% accuracy boost via data augmentation and dropout regularization.",
-        "Deployed interactive web app via Flask + Streamlit, enabling live webcam emotion detection for 50+ test users.",
-        "Reduced inference latency by 27% through model optimization and OpenCV frame batching."
+        "Built an interactive, sci-fi-themed web dashboard using React and Tailwind CSS, featuring live webcam detection, dynamic confidence bars, and persistent telemetry logging.",
+        "Optimized video processing performance by implementing a requestAnimationFrame loop and 100ms debouncing, ensuring smooth multi-face tracking for up to 3 simultaneous subjects.."
       ]
     },
     {
