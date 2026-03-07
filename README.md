@@ -1,6 +1,7 @@
 # Prabhav Saxena - Personal Portfolio
 
-![Portfolio Preview](./docs/preview-placeholder.png) <!-- Replace with an actual screenshot of your portfolio -->
+![Portfolio Preview](<img width="1444" height="826" alt="image" src="https://github.com/user-attachments/assets/77639918-d2d9-4af4-8ce4-ee73157976c8" />
+) <!-- Replace with an actual screenshot of your portfolio -->
 
 ## 📖 Description
 
@@ -68,14 +69,12 @@ Follow these steps to set up and run the project locally on your machine.
 
 *(Add screenshots of your application here to show off the UI)*
 
-### Hero Section
-![Hero Section](./docs/hero-placeholder.png)
+### Home Section
+![Home Section](<img width="1326" height="832" alt="image" src="https://github.com/user-attachments/assets/071be894-1eb7-4107-9fb1-561f7fd4acdf" />)
 
 ### Technical Experience
-![Technical Experience](./docs/tech-placeholder.png)
+![Technical Experience](<img width="1390" height="842" alt="image" src="https://github.com/user-attachments/assets/ab7a4bfd-0fab-4b29-8358-e0b45bdb44ce" />)
 
-### Print-Ready Resume
-![Print View](./docs/print-placeholder.png)
 
 ## 🔌 API Reference
 
