@@ -87,24 +87,13 @@
       "dates": "Dec 2025",
       "links": [
         { "name": "GitHub", "url": "https://github.com/Prabhav-1525/Facial-Expression-App" },
-        { "name": "Live Demo", "url": "#" }
+        { "name": "Live Demo", "url": "https://facial-expression-app-prabhav.streamlit.app/" }
       ],
       "bullets": [
-        "Built a real-time emotion recognition system classifying 4 facial emotions (happy, sad, angry, neutral) with 92% test accuracy.",
+        "Developedand deployed a real-time emotion recognition system classifying 4 facial emotions (happy, sad, angry, neutral) with 92% test accuracy.",
         "Trained a Convolutional Neural Network (CNN) on FER2013 dataset (35,887 images) using TensorFlow/Keras, achieving a 15% accuracy boost via data augmentation and dropout regularization.",
         "Deployed interactive web app via Flask + Streamlit, enabling live webcam emotion detection for 50+ test users.",
         "Reduced inference latency by 27% through model optimization and OpenCV frame batching."
-      ]
-    },
-    {
-      "title": "Student Performance Analyzer (AIML Project)",
-      "stack": "Random Forest, Linear Regression, Matplotlib",
-      "dates": "May 2024",
-      "links": [],
-      "bullets": [
-        "Developed a predictive model analyzing academic data of 200+ students using Random Forest and Linear Regression.",
-        "Improved R² score by 12% after tuning feature selection and handling missing values via median imputation.",
-        "Visualized insights and performance correlations using Matplotlib, increasing interpretability for academic advisors."
       ]
     },
     {
