@@ -1,0 +1,178 @@
+{
+  "basics": {
+    "name": "Prabhav Saxena",
+    "title": "AI/ML Enthusiast | MERN Stack Developer | React & Node.js | Building Intelligent, Data-Driven Web Solutions",
+    "summary": "Computer Science Engineering undergraduate specializing in Artificial Intelligence, Machine Learning, and Full-Stack Development, with hands-on experience in building and deploying AI-driven applications and data-intensive systems. Proven ability to train and optimize ML/DL models, manage large-scale datasets, and deliver production-ready web solutions using Python, TensorFlow, React.js, and Cloud platforms. Actively engaged in academic research, hackathons, and internships, with a strong foundation in computer vision, model optimization, and applied problem-solving. Seeking opportunities to contribute to impactful AI and software engineering projects.",
+    "location": "Pune, Maharashtra, India",
+    "email": "prabhavsaxena1525@gmail.com",
+    "phone": "+91-8949194225",
+    "links": [
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/prabhav-saxena15" },
+      { "name": "GitHub", "url": "https://github.com/Prabhav-1525" }
+    ]
+  },
+  "experience": [
+    {
+      "company": "mplloid Pvt. Ltd.",
+      "role": "Web Development Intern",
+      "dates": "Jun 2025 - Nov 2025",
+      "location": "Jaipur, Rajasthan",
+      "bullets": [
+        "Contributed to full-stack web applications used by 200+ active users, built with React.js and Node.js.",
+        "Reduced backend API latency by 30% through query optimization and asynchronous route handling.",
+        "Collaborated in an Agile team of 6 developers, delivering 2 production-ready modules ahead of sprint deadlines."
+      ]
+    },
+    {
+      "company": "Jan Chetna Sansthan",
+      "role": "Summer Intern",
+      "dates": "Jun 2024 - Jul 2024",
+      "location": "Abu Road, Rajasthan",
+      "bullets": [
+        "Organized and executed 3+ community awareness programs, impacting over 500 local participants.",
+        "Designed educational outreach materials that increased participation by 40% over prior sessions.",
+        "Assisted in community outreach programs to enhance social awareness.",
+        "Collaborated with team members on project planning and execution.",
+        "Conducted research to support various initiatives and campaigns.",
+        "Developed educational materials for workshops and seminars."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "AI Prototypes",
+      "metric": "3+",
+      "context": "AI-driven prototypes for academic use cases"
+    },
+    {
+      "title": "Model Accuracy",
+      "metric": "18-22%",
+      "context": "Improvement through hyperparameter tuning"
+    },
+    {
+      "title": "Data Pipelines",
+      "metric": "100K+",
+      "context": "Records handled using Python, SQL, and Azure"
+    },
+    {
+      "title": "Hackathons",
+      "metric": "4+",
+      "context": "University hackathons, leading AI solution design"
+    },
+    {
+      "title": "Active Users",
+      "metric": "200+",
+      "context": "Users for full-stack web applications"
+    },
+    {
+      "title": "API Latency",
+      "metric": "-30%",
+      "context": "Reduction through query optimization"
+    },
+    {
+      "title": "Community Impact",
+      "metric": "500+",
+      "context": "Local participants impacted by awareness programs"
+    },
+    {
+      "title": "Participation",
+      "metric": "+40%",
+      "context": "Increase in participation via educational materials"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Facial Expression Recognition App",
+      "stack": "TensorFlow, Keras, Flask, Streamlit, OpenCV",
+      "dates": "Dec 2025",
+      "links": [
+        { "name": "GitHub", "url": "https://github.com/Prabhav-1525/Facial-Expression-App" },
+        { "name": "Live Demo", "url": "#" }
+      ],
+      "bullets": [
+        "Built a real-time emotion recognition system classifying 4 facial emotions (happy, sad, angry, neutral) with 92% test accuracy.",
+        "Trained a Convolutional Neural Network (CNN) on FER2013 dataset (35,887 images) using TensorFlow/Keras, achieving a 15% accuracy boost via data augmentation and dropout regularization.",
+        "Deployed interactive web app via Flask + Streamlit, enabling live webcam emotion detection for 50+ test users.",
+        "Reduced inference latency by 27% through model optimization and OpenCV frame batching."
+      ]
+    },
+    {
+      "title": "Student Performance Analyzer (AIML Project)",
+      "stack": "Random Forest, Linear Regression, Matplotlib",
+      "dates": "May 2024",
+      "links": [],
+      "bullets": [
+        "Developed a predictive model analyzing academic data of 200+ students using Random Forest and Linear Regression.",
+        "Improved R² score by 12% after tuning feature selection and handling missing values via median imputation.",
+        "Visualized insights and performance correlations using Matplotlib, increasing interpretability for academic advisors."
+      ]
+    },
+    {
+      "title": "House Price Prediction System",
+      "stack": "Pandas, Scikit-learn, Polynomial Feature Engineering",
+      "dates": "Nov 2025",
+      "links": [
+        { "name": "GitHub", "url": "https://github.com/Prabhav-1525/House-Price-Prediction-" }
+      ],
+      "bullets": [
+        "Built a regression model to predict property prices with MAE of 2.3 and improved prediction accuracy by 25% using polynomial feature engineering.",
+        "Processed 10,000+ data samples with Pandas; integrated Scikit-learn pipeline for training, validation, and evaluation."
+      ]
+    }
+  ],
+  "Technical Experience": [
+    {
+      "group": "Programming Languages",
+      "skills": ["Python", "C++", "JavaScript", "SQL", "HTML", "CSS", "C"]
+    },
+    {
+      "group": "Machine Learning & AI",
+      "skills": ["TensorFlow", "Keras", "Scikit-learn", "OpenCV", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Generative AI"]
+    },
+    {
+      "group": "Specializations",
+      "skills": ["Computer Vision", "Deep Learning", "Data Preprocessing", "Model Optimization", "NLP", "Feature Engineering", "Retrieval-Augmented Generation (RAG) with Embeddings & Vector Databases"]
+    },
+    {
+      "group": "Frameworks & Tools",
+      "skills": ["React.js", "Node.js", "Express.js", "Flask", "Streamlit", "MongoDB", "MySQL"]
+    },
+    {
+      "group": "Cloud & Deployment",
+      "skills": ["Microsoft Azure (Certified)", "Streamlit Cloud", "Git", "GitHub", "Flask-based APIs"]
+    },
+    {
+      "group": "Research & Analytical Skills",
+      "skills": ["Experiment Design", "Statistical Modeling", "Model Evaluation", "Algorithm Optimization"]
+    },
+    {
+      "group": "Soft Skills",
+      "skills": ["Analytical Thinking", "Research Curiosity", "Team Collaboration", "Leadership", "Communication"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "D.Y. Patil International University, Pune",
+      "degree": "Bachelor of Technology - Computer Science Engineering",
+      "dates": "May 2023 - May 2027"
+    },
+    {
+      "institution": "H.G. International School",
+      "degree": "High School Diploma - Mathematics and Computer Science",
+      "dates": "May 2023",
+      "location": "Abu Road, Rajasthan, India"
+    }
+  ],
+  "certifications": [
+    "Microsoft Certified: Azure Fundamentals – SimpliLearn (April-2024)",
+    "Python for Data Science – Coursera (November-2024)",
+    "Deloitte Australia Technology Job Simulation – Forage (December-2025)",
+    "Deloitte Data Analytics Job Simulation – Forage (December-2025)",
+    "TATA GenAI Powered Data Analytics Job Simulation – Forage (December-2025)",
+    "JPMorganChase Software Engineering Job Simulation – Forage (December-2025)"
+  ],
+  "awards": [
+    "Delivered 2 live full-stack projects during internship at mplloid Pvt. Ltd., deployed for real client use."
+  ],
+  "extra": []
+}
