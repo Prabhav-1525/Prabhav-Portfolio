@@ -103,7 +103,7 @@ export const PrintableResume: React.FC = () => {
         <h2 className="text-lg font-bold uppercase border-b border-gray-300 mb-3 text-gray-900">Certifications & Awards</h2>
         <ul className="list-disc list-outside ml-5 text-sm text-gray-800 space-y-1.5">
           {resumeData.certifications.map((cert, i) => (
-            <li key={`cert-${i}`} className="pl-1">{cert}</li>
+            <li key={`cert-${i}`} className="pl-1">{cert.name}</li>
           ))}
           {resumeData.awards.map((award, i) => (
             <li key={`award-${i}`} className="pl-1">{award}</li>

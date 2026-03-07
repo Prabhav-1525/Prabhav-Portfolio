@@ -60,16 +60,22 @@ export const Education: React.FC = () => {
 
             <div className="space-y-4">
               {resumeData.certifications.map((cert, index) => (
-                <motion.div
+                <motion.a
                   key={index}
+                  href={cert.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.05 }}
-                  className="p-4 rounded-xl bg-white/5 border border-white/10 text-sm text-white/80 hover:bg-white/10 transition-colors"
+                  className="block p-4 rounded-xl bg-white/5 border border-white/10 text-sm text-white/80 hover:bg-white/10 hover:border-emerald-500/30 transition-all group"
                 >
-                  {cert}
-                </motion.div>
+                  <div className="flex items-center justify-between">
+                    <span>{cert.name}</span>
+                    <span className="opacity-0 group-hover:opacity-100 transition-opacity text-emerald-400 text-xs">View →</span>
+                  </div>
+                </motion.a>
               ))}
               
               {resumeData.awards.map((award, index) => (

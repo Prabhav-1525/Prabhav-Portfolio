@@ -164,12 +164,26 @@
     }
   ],
   "certifications": [
-    "Microsoft Certified: Azure Fundamentals – SimpliLearn (April-2024)",
-    "Python for Data Science – Coursera (November-2024)",
-    "Deloitte Australia Technology Job Simulation – Forage (December-2025)",
-    "Deloitte Data Analytics Job Simulation – Forage (December-2025)",
-    "TATA GenAI Powered Data Analytics Job Simulation – Forage (December-2025)",
-    "JPMorganChase Software Engineering Job Simulation – Forage (December-2025)"
+    {
+      "name": "Microsoft Certified: Azure Fundamentals – SimpliLearn (April-2024)",
+      "url": "https://simpli-web.app.link/e/VJ1o4bdtj1b"
+    },
+    {
+      "name": "Deloitte Australia Technology Job Simulation – Forage (December-2025)",
+      "url": "https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_HJpzpuEBtGyJCxssp_1765650098974_completion_certificate.pdf"
+    },
+    {
+      "name": "Deloitte Data Analytics Job Simulation – Forage (December-2025)",
+      "url": "https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_HJpzpuEBtGyJCxssp_1764889506098_completion_certificate.pdf"
+    },
+    {
+      "name": "TATA GenAI Powered Data Analytics Job Simulation – Forage (December-2025)",
+      "url": "https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_HJpzpuEBtGyJCxssp_1766823399878_completion_certificate.pdf"
+    },
+    {
+      "name": "JPMorganChase Software Engineering Job Simulation – Forage (December-2025)",
+      "url": "https://www.theforage.com/completion-certificates/Sj7temL583QAYpHXD/E6McHJDKsQYh79moz_Sj7temL583QAYpHXD_HJpzpuEBtGyJCxssp_1767178481181_completion_certificate.pdf"
+    }
   ],
   "awards": [
     "Delivered 2 live full-stack projects during internship at mplloid Pvt. Ltd., deployed for real client use."
