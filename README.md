@@ -1,7 +1,7 @@
+
 # Prabhav Saxena - Personal Portfolio
 
-![Portfolio Preview](<img width="1444" height="826" alt="image" src="https://github.com/user-attachments/assets/77639918-d2d9-4af4-8ce4-ee73157976c8" />
-) <!-- Replace with an actual screenshot of your portfolio -->
+![Portfolio Preview](<img width="1326" height="832" alt="porthome" src="https://github.com/user-attachments/assets/e52b7e9f-9693-41e4-910c-affd04bcb4bf" />) <!-- Replace with an actual screenshot of your portfolio -->
 
 ## 📖 Description
 
@@ -70,10 +70,10 @@ Follow these steps to set up and run the project locally on your machine.
 *(Add screenshots of your application here to show off the UI)*
 
 ### Home Section
-![Home Section](<img width="1326" height="832" alt="image" src="https://github.com/user-attachments/assets/071be894-1eb7-4107-9fb1-561f7fd4acdf" />)
+![Home Section](<img width="1326" height="832" alt="porthome" src="https://github.com/user-attachments/assets/e52b7e9f-9693-41e4-910c-affd04bcb4bf" />)
 
 ### Technical Experience
-![Technical Experience](<img width="1390" height="842" alt="image" src="https://github.com/user-attachments/assets/ab7a4bfd-0fab-4b29-8358-e0b45bdb44ce" />)
+![Technical Experience](<img width="1390" height="842" alt="Port tech" src="https://github.com/user-attachments/assets/d40494a2-9f70-4737-bcd1-b48b3a84d061" />)
 
 
 ## 🔌 API Reference
