@@ -8,7 +8,8 @@
     "phone": "+91-8949194225",
     "links": [
       { "name": "LinkedIn", "url": "https://www.linkedin.com/in/prabhav-saxena15" },
-      { "name": "GitHub", "url": "https://github.com/Prabhav-1525" }
+      { "name": "GitHub", "url": "https://github.com/Prabhav-1525" },
+      { "name": "Portfolio", "url": "https://prabhav-saxena.netlify.app/" }
     ]
   },
   "experience": [
@@ -89,6 +90,20 @@
         "Trained a Convolutional Neural Network (CNN) on FER2013 dataset (35,887 images) using TensorFlow/Keras, achieving a 15% accuracy boost via data augmentation and dropout regularization.",
         "Built an interactive, sci-fi-themed web dashboard using React and Tailwind CSS, featuring live webcam detection, dynamic confidence bars, and persistent telemetry logging.",
         "Optimized video processing performance by implementing a requestAnimationFrame loop and 100ms debouncing, ensuring smooth multi-face tracking for up to 3 simultaneous subjects.."
+      ]
+    },
+    {
+      "title": "ExamNote Ai",
+      "stack": "React, Node.js, Express, MongoDB, Groq API (LLaMA 3.3 70B), JWT, bcrypt, Multer, pdf-parse, mammoth.js, Tailwind CSS",
+      "dates": "Mar 2026",
+      "links": [
+        { "name": "GitHub", "url": "https://github.com/Prabhav-1525/ExamNote-Ai" },
+        { "name": "Live Demo", "url": "https://exam-note-ai.vercel.app/login" }
+      ],
+      "bullets": [
+        "Built a full-stack AI-powered study tool that converts PDF/Word notes into 4 card types (flashcards, quick notes, audio scripts, video ideas) using Groq LLaMA 3.3 70B, reducing manual note-making time significantly.",
+        "Implemented JWT authentication, spaced repetition (SM-2 algorithm) for flashcard scheduling, real-time AI processing with async polling, and CSV/Anki export — deployed on Vercel + Render with MongoDB Atlas.",
+        "Engineered a responsive React dashboard with flip card animations, Web Speech API text-to-speech playback, quiz/review study modes, and per-user progress tracking across sessions."
       ]
     },
     {
