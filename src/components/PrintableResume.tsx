@@ -10,13 +10,15 @@ export const PrintableResume: React.FC = () => {
         <div className="text-sm flex flex-wrap justify-center gap-2 text-gray-700">
           <span>{resumeData.basics.location}</span>
           <span>•</span>
-          <span>{resumeData.basics.phone}</span>
+          <a href={`tel:${resumeData.basics.phone}`} className="hover:text-blue-600 hover:underline">{resumeData.basics.phone}</a>
           <span>•</span>
-          <span>{resumeData.basics.email}</span>
+          <a href={`mailto:${resumeData.basics.email}`} className="hover:text-blue-600 hover:underline">{resumeData.basics.email}</a>
           {resumeData.basics.links.map((link, i) => (
             <React.Fragment key={i}>
               <span>•</span>
-              <span>{link.url.replace('https://', '').replace('www.', '')}</span>
+              <a href={link.url} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 hover:underline">
+                {link.url.replace('https://', '').replace('www.', '').replace(/\/$/, '')}
+              </a>
             </React.Fragment>
           ))}
         </div>
@@ -76,7 +78,18 @@ export const PrintableResume: React.FC = () => {
               <span>{proj.title}</span>
               <span>{proj.dates}</span>
             </div>
-            <div className="text-sm italic text-gray-700 mb-2">Stack: {proj.stack}</div>
+            <div className="flex justify-between items-center mb-1">
+              <div className="text-sm italic text-gray-700">Stack: {proj.stack}</div>
+              {proj.links && proj.links.length > 0 && (
+                <div className="text-sm flex gap-3">
+                  {proj.links.map((link, j) => (
+                    <a key={j} href={link.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                      {link.name}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
             <ul className="list-disc list-outside ml-5 text-sm text-gray-800 space-y-1">
               {proj.bullets.map((bullet, j) => (
                 <li key={j} className="pl-1">{bullet}</li>
