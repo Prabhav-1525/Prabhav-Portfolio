@@ -61,7 +61,7 @@ export const PrintableResume: React.FC = () => {
               <span>{exp.location}</span>
             </div>
             <ul className="list-disc list-outside ml-5 text-sm text-gray-800 space-y-1">
-              {exp.bullets.map((bullet, j) => (
+              {exp.bullets.slice(0, 3).map((bullet, j) => (
                 <li key={j} className="pl-1">{bullet}</li>
               ))}
             </ul>
@@ -91,7 +91,7 @@ export const PrintableResume: React.FC = () => {
               )}
             </div>
             <ul className="list-disc list-outside ml-5 text-sm text-gray-800 space-y-1">
-              {proj.bullets.map((bullet, j) => (
+              {proj.bullets.slice(0, 2).map((bullet, j) => (
                 <li key={j} className="pl-1">{bullet}</li>
               ))}
             </ul>
@@ -115,31 +115,14 @@ export const PrintableResume: React.FC = () => {
       <section className="mb-4">
         <h2 className="text-lg font-bold uppercase border-b border-gray-300 mb-2 text-gray-900">Certifications & Awards</h2>
         <ul className="list-disc list-outside ml-5 text-sm text-gray-800 space-y-1">
-          {resumeData.certifications.map((cert, i) => (
+          {resumeData.certifications.slice(0, 3).map((cert, i) => (
             <li key={`cert-${i}`} className="pl-1">{cert.name}</li>
           ))}
-          {resumeData.awards.map((award, i) => (
+          {resumeData.awards.slice(0, 1).map((award, i) => (
             <li key={`award-${i}`} className="pl-1">{award}</li>
           ))}
         </ul>
       </section>
-
-      {/* Declaration */}
-      {resumeData.declaration && (
-        <section className="mt-6 pt-4 border-t border-gray-300">
-          <p className="text-sm text-gray-800 italic mb-6">{resumeData.declaration}</p>
-          <div className="flex justify-between text-sm text-gray-900 font-bold">
-            <div>
-              <p>Place: {resumeData.basics.location.split(',')[0]}</p>
-              <p>Date: {new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })}</p>
-            </div>
-            <div className="text-right">
-              <p className="mb-1 border-b border-gray-900 inline-block min-w-[150px]"></p>
-              <p>({resumeData.basics.name})</p>
-            </div>
-          </div>
-        </section>
-      )}
     </div>
   );
 };
