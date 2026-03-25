@@ -61,7 +61,10 @@ export const PrintableResume: React.FC = () => {
               <span>{exp.location}</span>
             </div>
             <ul className="list-disc list-outside ml-5 text-sm text-gray-800 space-y-1">
-              <li className="pl-1">{exp.bullets.join(' ')}</li>
+              <li className="pl-1">
+                {exp.company === "mplloid Pvt. Ltd." && "Developed React/Node.js full-stack applications for 200+ users, reducing API latency by 30% via query optimization, and delivered 2 production-ready modules ahead of schedule in an Agile team."}
+                {exp.company === "Jan Chetna Sansthan" && "Led community awareness programs impacting 500+ participants, boosting engagement by 40% through custom educational materials, collaborative project planning, and targeted research initiatives."}
+              </li>
             </ul>
           </div>
         ))}
@@ -89,7 +92,11 @@ export const PrintableResume: React.FC = () => {
               )}
             </div>
             <ul className="list-disc list-outside ml-5 text-sm text-gray-800 space-y-1">
-              <li className="pl-1">{proj.bullets.join(' ')}</li>
+              <li className="pl-1">
+                {proj.title === "Facial Expressions Analyzer" && "Built a real-time browser-based emotion recognition dashboard using React and TensorFlow.js. Trained a CNN on 35k+ images (15% accuracy boost) and optimized video inference for smooth multi-face tracking."}
+                {proj.title === "ExamNote Ai" && "Developed a full-stack AI study tool using Groq LLaMA 3.3 70B to convert documents into flashcards and audio scripts. Implemented SM-2 spaced repetition, JWT auth, and real-time AI polling on a MERN stack."}
+                {proj.title === "House Price Prediction System" && "Engineered a regression model processing 10,000+ samples with Pandas and Scikit-learn, achieving a 2.3 MAE and improving accuracy by 25% via polynomial feature engineering."}
+              </li>
             </ul>
           </div>
         ))}
