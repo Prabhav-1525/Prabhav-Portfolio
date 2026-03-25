@@ -61,9 +61,7 @@ export const PrintableResume: React.FC = () => {
               <span>{exp.location}</span>
             </div>
             <ul className="list-disc list-outside ml-5 text-sm text-gray-800 space-y-1">
-              {exp.bullets.slice(0, 3).map((bullet, j) => (
-                <li key={j} className="pl-1">{bullet}</li>
-              ))}
+              <li className="pl-1">{exp.bullets.join(' ')}</li>
             </ul>
           </div>
         ))}
@@ -91,9 +89,7 @@ export const PrintableResume: React.FC = () => {
               )}
             </div>
             <ul className="list-disc list-outside ml-5 text-sm text-gray-800 space-y-1">
-              {proj.bullets.slice(0, 2).map((bullet, j) => (
-                <li key={j} className="pl-1">{bullet}</li>
-              ))}
+              <li className="pl-1">{proj.bullets.join(' ')}</li>
             </ul>
           </div>
         ))}
